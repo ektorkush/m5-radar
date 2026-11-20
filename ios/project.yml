@@ -1,0 +1,37 @@
+name: M5Radar
+options:
+  bundleIdPrefix: com.hector
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""   # Mets ton Team ID Apple ici, ou choisis ton équipe dans Xcode (Signing & Capabilities)
+targets:
+  M5Radar:
+    type: application
+    platform: iOS
+    sources:
+      - M5Radar
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.hector.M5Radar
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1"
+    info:
+      path: M5Radar/Info.plist
+      properties:
+        CFBundleDisplayName: M5Radar
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [bluetooth-central, location]
+        NSBluetoothAlwaysUsageDescription: >-
+          M5Radar se connecte à ton M5StickC pour recevoir les réseaux Wi-Fi et
+          appareils Bluetooth qu'il a captés.
+        NSLocationWhenInUseUsageDescription: >-
+          La position sert à placer sur la carte les réseaux et appareils captés.
+        NSLocationAlwaysAndWhenInUseUsageDescription: >-
+          Pour continuer à positionner les détections quand l'iPhone est dans ta
+          poche, M5Radar a besoin de la localisation en arrière-plan.

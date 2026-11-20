@@ -1,0 +1,21 @@
+# --- Données sensibles : ne JAMAIS publier ---
+# Sauvegarde complète de la flash du M5 (contient MAC, clés d'appairage BLE, NVS…).
+backup/
+*.bin
+
+# --- Artefacts de compilation ---
+# PlatformIO (firmware + sonde NRF24)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Xcode : le projet est généré par XcodeGen depuis ios/project.yml
+ios/M5Radar.xcodeproj/
+ios/*.xcworkspace/
+DerivedData/
+build/
+
+# --- Divers ---
+.DS_Store
+*.swp
+*~
