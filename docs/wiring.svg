@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 492" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect width="860" height="492" fill="#ffffff"/>
+  <rect x="6" y="6" width="848" height="480" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="430" y="46" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">Câblage NRF24L01 → M5StickC Plus2</text>
+
+  <!-- Corps M5 -->
+  <rect x="70" y="100" width="200" height="345" rx="16" fill="#f97316" stroke="#c2410c" stroke-width="2"/>
+  <text x="170" y="132" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">M5StickC Plus2</text>
+
+  <!-- Corps NRF -->
+  <rect x="590" y="100" width="200" height="345" rx="16" fill="#1e3a8a" stroke="#1e40af" stroke-width="2"/>
+  <text x="690" y="132" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">NRF24L01</text>
+
+  <!-- Lignes -->
+  <line x1="282" y1="150" x2="578" y2="150" stroke="#dc2626" stroke-width="4"/>
+  <line x1="282" y1="195" x2="578" y2="195" stroke="#d97706" stroke-width="4"/>
+  <line x1="282" y1="240" x2="578" y2="240" stroke="#2563eb" stroke-width="4"/>
+  <line x1="282" y1="285" x2="578" y2="285" stroke="#059669" stroke-width="4"/>
+  <line x1="282" y1="330" x2="578" y2="330" stroke="#7c3aed" stroke-width="4"/>
+  <line x1="282" y1="375" x2="578" y2="375" stroke="#db2777" stroke-width="4"/>
+  <line x1="282" y1="420" x2="578" y2="420" stroke="#4b5563" stroke-width="4"/>
+
+  <!-- Pastilles M5 (gauche) -->
+  <g font-size="14" font-weight="700" fill="#111827" text-anchor="middle">
+    <rect x="188" y="134" width="94" height="32" rx="7" fill="#fff" stroke="#dc2626" stroke-width="2.5"/><text x="235" y="155">3V3</text>
+    <rect x="188" y="179" width="94" height="32" rx="7" fill="#fff" stroke="#d97706" stroke-width="2.5"/><text x="235" y="200">G0</text>
+    <rect x="188" y="224" width="94" height="32" rx="7" fill="#fff" stroke="#2563eb" stroke-width="2.5"/><text x="235" y="245">G32</text>
+    <rect x="188" y="269" width="94" height="32" rx="7" fill="#fff" stroke="#059669" stroke-width="2.5"/><text x="235" y="290">G33</text>
+    <rect x="188" y="314" width="94" height="32" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2.5"/><text x="235" y="335">G26</text>
+    <rect x="188" y="359" width="94" height="32" rx="7" fill="#fff" stroke="#db2777" stroke-width="2.5"/><text x="235" y="380">G25</text>
+    <rect x="188" y="404" width="94" height="32" rx="7" fill="#fff" stroke="#4b5563" stroke-width="2.5"/><text x="235" y="425">GND</text>
+  </g>
+
+  <!-- Pastilles NRF (droite) -->
+  <g font-size="14" font-weight="700" fill="#111827" text-anchor="middle">
+    <rect x="578" y="134" width="94" height="32" rx="7" fill="#fff" stroke="#dc2626" stroke-width="2.5"/><text x="625" y="155">VCC</text>
+    <rect x="578" y="179" width="94" height="32" rx="7" fill="#fff" stroke="#d97706" stroke-width="2.5"/><text x="625" y="200">SCK</text>
+    <rect x="578" y="224" width="94" height="32" rx="7" fill="#fff" stroke="#2563eb" stroke-width="2.5"/><text x="625" y="245">MOSI</text>
+    <rect x="578" y="269" width="94" height="32" rx="7" fill="#fff" stroke="#059669" stroke-width="2.5"/><text x="625" y="290">MISO</text>
+    <rect x="578" y="314" width="94" height="32" rx="7" fill="#fff" stroke="#7c3aed" stroke-width="2.5"/><text x="625" y="335">CSN</text>
+    <rect x="578" y="359" width="94" height="32" rx="7" fill="#fff" stroke="#db2777" stroke-width="2.5"/><text x="625" y="380">CE</text>
+    <rect x="578" y="404" width="94" height="32" rx="7" fill="#fff" stroke="#4b5563" stroke-width="2.5"/><text x="625" y="425">GND</text>
+  </g>
+
+  <text x="430" y="470" text-anchor="middle" font-size="13" fill="#6b7280">G32 / G33 = port Grove · VCC sur 3V3 (pas 5V) · broche IRQ du NRF24 non utilisée</text>
+</svg>

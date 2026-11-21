@@ -13,6 +13,19 @@ diffuse soi-même. Projet personnel / pédagogique.
 
 ---
 
+## Aperçu de l'app
+
+> Interface présentée avec des **données d'exemple** (les vraies captures
+> contiendraient des SSID et adresses MAC réels, qui n'ont pas leur place en public).
+
+<p align="center">
+  <img src="docs/app-direct.svg" width="31%" alt="Vue en direct">
+  <img src="docs/app-spectre.svg" width="31%" alt="Spectre 2,4 GHz">
+  <img src="docs/app-ble.svg" width="31%" alt="Détail d'un appareil Bluetooth">
+</p>
+
+---
+
 ## Fonctionnalités
 
 - **Scan Wi-Fi passif** : SSID, BSSID, canal, sécurité (ouvert/WEP/WPA/WPA2/WPA3), RSSI.
@@ -38,6 +51,8 @@ diffuse soi-même. Projet personnel / pédagogique.
 ### Câblage du NRF24L01
 
 Le bus d'affichage du M5 est sur VSPI ; le NRF24 utilise HSPI via la matrice GPIO.
+
+![Schéma de câblage NRF24L01 vers M5StickC Plus2](docs/wiring.svg)
 
 | NRF24 | M5StickC Plus2 |
 |-------|----------------|

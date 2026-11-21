@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 660" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+  <rect width="320" height="660" fill="#f0f0f3"/>
+  <rect x="8" y="8" width="304" height="644" rx="44" fill="#0b0b0f"/>
+  <rect x="18" y="18" width="284" height="624" rx="34" fill="#f2f2f7"/>
+  <rect x="120" y="26" width="80" height="18" rx="9" fill="#0b0b0f"/>
+  <text x="40" y="44" font-size="13" font-weight="700" fill="#111827">9:41</text>
+
+  <text x="30" y="60" font-size="15" font-weight="600" fill="#0a84ff">‹ Liste</text>
+  <text x="30" y="94" font-size="22" font-weight="800" fill="#111827">AirPods Pro</text>
+
+  <text x="30" y="124" font-size="11" font-weight="700" fill="#8e8e93">CE QU'IL DIFFUSE</text>
+  <rect x="22" y="134" width="260" height="330" rx="12" fill="#ffffff"/>
+  <g font-size="13">
+    <text x="34" y="157" fill="#111827">Nom annoncé</text><text x="270" y="157" text-anchor="end" fill="#111827">AirPods Pro</text>
+    <line x1="34" y1="167" x2="270" y2="167" stroke="#eeeef2"/>
+    <text x="34" y="187" fill="#111827">Fabricant</text><text x="270" y="187" text-anchor="end" fill="#111827">Apple</text>
+    <line x1="34" y1="197" x2="270" y2="197" stroke="#eeeef2"/>
+    <text x="34" y="217" fill="#111827">Type probable</text><text x="270" y="217" text-anchor="end" fill="#111827">AirPods / Beats</text>
+    <line x1="34" y1="227" x2="270" y2="227" stroke="#eeeef2"/>
+    <text x="34" y="247" fill="#111827">Adresse</text><text x="270" y="247" text-anchor="end" font-size="12" font-family="monospace" fill="#111827">5A:1C:3E:8B:04:9F</text>
+    <line x1="34" y1="257" x2="270" y2="257" stroke="#eeeef2"/>
+    <text x="34" y="277" fill="#111827">Type d'adresse</text><text x="270" y="277" text-anchor="end" fill="#111827">aléatoire tournante</text>
+    <text x="34" y="293" font-size="10" fill="#8e8e93">Change environ toutes les 15 min.</text>
+    <line x1="34" y1="303" x2="270" y2="303" stroke="#eeeef2"/>
+    <text x="34" y="323" fill="#111827">Connectable</text><text x="270" y="323" text-anchor="end" fill="#111827">non</text>
+    <line x1="34" y1="333" x2="270" y2="333" stroke="#eeeef2"/>
+    <text x="34" y="353" fill="#111827">Puissance annoncée</text><text x="270" y="353" text-anchor="end" fill="#111827">7 dBm</text>
+    <line x1="34" y1="363" x2="270" y2="363" stroke="#eeeef2"/>
+    <text x="34" y="383" fill="#111827">Services</text><text x="270" y="383" text-anchor="end" fill="#111827">Batterie</text>
+    <line x1="34" y1="393" x2="270" y2="393" stroke="#eeeef2"/>
+    <text x="34" y="413" fill="#111827">Meilleur signal</text><text x="270" y="413" text-anchor="end" fill="#111827">-48 dBm</text>
+    <line x1="34" y1="423" x2="270" y2="423" stroke="#eeeef2"/>
+    <text x="34" y="449" fill="#111827">C'est à moi</text>
+    <rect x="244" y="441" width="26" height="16" rx="8" fill="#e5e5ea"/><circle cx="252" cy="449" r="6" fill="#fff"/>
+  </g>
+
+  <text x="30" y="494" font-size="11" font-weight="700" fill="#8e8e93">DÉTECTIONS</text>
+  <rect x="22" y="504" width="260" height="96" rx="12" fill="#ffffff"/>
+  <g font-size="13">
+    <text x="34" y="527" fill="#111827">Première fois</text><text x="270" y="527" text-anchor="end" fill="#111827">Auj. 14:21</text>
+    <line x1="34" y1="537" x2="270" y2="537" stroke="#eeeef2"/>
+    <text x="34" y="559" fill="#111827">Dernière fois</text><text x="270" y="559" text-anchor="end" fill="#111827">Auj. 14:39</text>
+    <line x1="34" y1="569" x2="270" y2="569" stroke="#eeeef2"/>
+    <text x="34" y="591" fill="#111827">Nombre</text><text x="270" y="591" text-anchor="end" fill="#111827">21</text>
+  </g>
+</svg>
